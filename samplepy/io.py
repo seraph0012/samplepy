@@ -1,4 +1,8 @@
-def export_to_file(components, filename)
+"""
+Functions for importing and exporting data.
+"""
+
+def export_to_file(components, filename):
     """
     Save a system to a file.
     
@@ -19,7 +23,7 @@ def export_to_file(components, filename)
     """
     pass
 
-def import_from_file(filename)
+def import_from_file(filename):
     """
     Load a system from a file.
     

@@ -1,7 +1,7 @@
 from samplepy import (
     systems,
     components,
-    io
+    io,
 )
 from samplepy.systems import System
 from samplepy.components import BasicComponent
