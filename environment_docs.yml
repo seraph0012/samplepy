@@ -1,0 +1,22 @@
+name: samplepy-doc
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - ipykernel
+  - julia
+  - jupyter
+  - matplotlib
+  - nbsphinx
+  - numpy
+  - pandas
+  - recommonmark
+  - scikit-learn
+  - scipy
+  - pip
+  - pip:
+    - cplex
+    - sphinx
+    - nbsphinx-link
+    - sphinx-rtd-theme
+    - sphinxcontrib-napoleon
